@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliophiles - Your Bookstore</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: #4B7F52;
+            color: #2c3e50;
+        }
+
+        header {
+            background-color: #F2F2F2;
+            color: #49393B;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #49393B;
+            font-weight: gotham;
+        ld}
+
+        .hero {
+            background: linear-gradient(to right, #f8b500, #fccf31);
+            text-align: center;
+            padding: 50px 20px;
+            color: #49393B;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .book-card {
+            background-color:#B7C9E2;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+
+        .book-card:hover {
+            transform: scale(1.05);
+        }
+
+        .book-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .book-card a {
+            text-decoration: none;
+            color: #49393B;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #B7C9E2;
+            color: #B7C9E2;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bibliophiles</h1>
+        <nav>
+            <b>Books collection best to read and to gift</b>
+                    </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Discover Your Next Great Read</h2>
+        <p>Welcome to Bibliophiles, where every book is a new adventure.</p>
+    </div>
+
+    <div class="book-grid">
+        <!-- 20 Vacant Spaces for Book Photos with Links -->
+        <div class="book-card">
+            <a href="https://amzn.to/3OFZ6Yc"><img src="D:\91PU9wSV0WL._SL1500_.jpg"></a>
+            <a href="https://amzn.to/3OFZ6Yc">The Lost Words</a><i>-by Robert Macfarlane</i>
+        </div>
+        <div class="book-card">
+            <a href="https://amzn.to/41gJimb"><img src="D:\91ROSEPwX4L._SL1500_.jpg" ></a>
+            <a href="book2.html">Something in the Woods Loves You</a><i>-by Jarod K. Anderson</i>
+
+        </div>
+        <div class="book-card">
+            <a href="https://amzn.to/4f2Yl68"><img src="D:\813fbekbxoL._SL1500_.jpg"></a>
+            <a href="https://amzn.to/4f2Yl68">The Universe in Verse: 15 Portals to Wonder through Science & Poetry</a><i>by Maria Popova</i>
+        </div>
+        <!-- Repeat for 20 books -->
+        <!-- Add the following blocks for more books up to 20 -->
+        
+        <!-- Example of 4th book -->
+        <div class="book-card">
+            <a href="https://amzn.to/3ZF92r6"><img src="D:\71-56UkNqmL._SL1400_.jpg"></a>
+            <a href="https://amzn.to/3ZF92r6">How to Love a Forest: The Bittersweet Work of Tending a Changing World</a><i>-by Ethan Tapper
+        </div>
+
+        <!-- Repeat similar blocks up to 20 books -->
+    </div>
+
+    <footer>
+        <p>© 2024 Bibliophiles. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
